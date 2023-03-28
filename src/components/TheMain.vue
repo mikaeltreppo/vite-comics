@@ -1,5 +1,10 @@
 <script>
+import TheCard from './TheCard.vue'
+
 export default {
+    components:{
+        TheCard
+    },
     name: "TheHeader",
     data() {
         return {
@@ -36,7 +41,7 @@ export default {
    
         
         <div class="blackbar">
-           <div class="container">  <h3>Content goes here</h3>   </div>
+           <div class="container one"><TheCard></TheCard></div>
         </div>
 
         <div class="bluebar">
@@ -56,6 +61,13 @@ export default {
 .container{
   width: 80%;
   margin: auto;
+
+}
+.container.one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .listItem{
     display: flex;
@@ -77,7 +89,7 @@ export default {
 
 .blackbar {
     background-color: black;
-    height: 70px;
+
     color: wheat;
 }
 </style>

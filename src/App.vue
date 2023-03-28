@@ -7,6 +7,7 @@ export default {
     TheHeader,
     TheMain,
     TheFooter
+
   }
 };
 
