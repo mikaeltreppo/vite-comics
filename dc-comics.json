@@ -1,29 +1,4 @@
-<template>
-
-    <TheSingleCard ></TheSingleCard>
-
-</template>
-<style>
-.card{
-    padding: 20px;
-    width: calc((100% / 6) - 20px);
-    margin: 20px 0;
-}
-.card img{
-    height: 100px;
-    width: 100px;
-    
-}
-</style>
-<script>
-import TheSingleCard from './TheSingleCard.vue'
-export default{
-    components:{
-        TheSingleCard
-    },
-    data(){
-    return{
-    cards:[
+[
   {
       "thumb": "https://static.dc.com/2023-03/LEGIONOB_Cv1_00111_DIGITAL.jpg?w=640",
       "price": "$19.99",
@@ -97,11 +72,3 @@ export default{
       "type": "graphic novel"
   }
 ]
-
-      }
-      }
-}
-
-
-</script>
-

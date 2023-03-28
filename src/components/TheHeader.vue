@@ -5,43 +5,43 @@ export default {
         return {
             navLinks: [
                 {
-                    label: 'caracters',
+                    label: 'CHARACTERS',
                     link: '#'
                 },
                 {
-                    label: 'home',
+                    label: 'HOME',
                     link: '#'
                 },
                 {
-                    label: 'movies',
+                    label: 'MOVIES',
                     link: '#'
                 },
                 {
-                    label: 'tv',
+                    label: 'TV',
                     link: '#'
                 },
                 {
-                    label: 'games',
+                    label: 'GAMES',
                     link: '#'
                 },
                 {
-                    label: 'collectibles',
+                    label: 'COLLECTIBLES',
                     link: '#'
                 },
                 {
-                    label: 'video',
+                    label: 'VIDEO',
                     link: '#'
                 },
                 {
-                    label: 'fan',
+                    label: 'FAN',
                     link: '#'
                 },
                 {
-                    label: 'news',
+                    label: 'NEWS',
                     link: '#'
                 },
                 {
-                    label: 'shop',
+                    label: 'SHOP',
                     link: '#'
                 }
 
@@ -91,16 +91,16 @@ header {
 .leftPart {
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 50%;
 }
 
 .item {
     font-size: 15px;
     list-style: none;
-    margin: 10px;
+    margin: 5px;
     display: inline-block;
     border-bottom: 5px solid transparent;
-    padding: 24px 0;
+    padding: 25px 0;
 
 
 

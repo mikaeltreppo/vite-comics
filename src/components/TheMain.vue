@@ -96,7 +96,7 @@ export default {
 }
 .absolute{
     position: absolute;
-    top: -10px;
+    top: -15px;
     left: 150px;
    display: inline-block;
    background-color: rgb(2, 130, 249);
@@ -106,8 +106,8 @@ export default {
 }
 
 .blackbar {
-    background-color: black;
+    background-color: rgb(28, 28, 28);
 position: relative;
-    color: wheat;
+    color: rgb(255, 255, 255);
 }
 </style>

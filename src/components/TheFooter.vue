@@ -131,7 +131,7 @@ export default {
         </ul>
   </div>
   <div>
-    <h3>DC</h3>
+    <h3>SITE</h3>
         <ul> 
             <li v-for="item in navLinksTwo">
             {{ item.label }}</li>
