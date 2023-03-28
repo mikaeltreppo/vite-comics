@@ -39,8 +39,9 @@ export default {
 
 <template>
    
-        
+        <div class="hero"></div>
         <div class="blackbar">
+        <div class="absolute"> CURRENT SERIES</div>
            <div class="container one"><TheCard></TheCard></div>
         </div>
 
@@ -58,6 +59,13 @@ export default {
 </template>
 
 <style scoped>
+.hero{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 300px;
+    background-image: url('../assets/img/jumbotron.jpg');
+}
 .container{
   width: 80%;
   margin: auto;
@@ -79,17 +87,27 @@ export default {
     display: flex;
 }
 .bluebar { 
-    background-color: blue;
+    background-color:rgb(2, 130, 249);
     height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
 
 }
+.absolute{
+    position: absolute;
+    top: -10px;
+    left: 150px;
+   display: inline-block;
+   background-color: rgb(2, 130, 249);
+   color:white;
+   font-weight: bolder;
+   padding: 5px;
+}
 
 .blackbar {
     background-color: black;
-
+position: relative;
     color: wheat;
 }
 </style>
