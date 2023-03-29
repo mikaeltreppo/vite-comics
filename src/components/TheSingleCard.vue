@@ -1,5 +1,5 @@
 <template>
-     <div v-for="card in cards" class="card">
+     <div v-for="card in carte" class="card">
         <img :src="card.thumb" alt="">
         <span>{{ card.series }}</span>
     </div>
@@ -10,7 +10,7 @@
 export default {
     name: 'TheSingleCard',
     props:{
-       cards: Array
+       carte: Array
         
     }
 }

@@ -1,6 +1,6 @@
 <template>
 
-    <TheSingleCard ></TheSingleCard>
+    <TheSingleCard :carte="cards"></TheSingleCard>
 
 </template>
 <style>
